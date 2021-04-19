@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora</title>
+   </head>
+  <body>
+    <div class="contenedor">
+      <div class="calculadora">
+      
+          <div class="pantalla">
+            <!-- <div id="primerValor"></div> -->
+             <input type="text " id="resulltado" placeholder="0">
+             <!--<div id="valorActual"></div>-->
+            
+          </div>
+
+          <button name="numerobtn">7</button>
+          <button name="numerobtn">8</button>
+          <button name="numerobtn">9</button>
+          <button name="signos" id="division">/</button>
+          <button name="signos" >+/-</button>
+          <button name="numerobtn">4</button>
+          <button name="numerobtn">5</button>
+          <button name="numerobtn">6</button>
+          <button name="signos" id="multiplicacion">x</button>
+          <button onclick="funcionalidad.borrarNro()" id="btnBorrar"><img src="btnBorrar.png"></button>
+          <button name="numerobtn">1</button>
+          <button name="numerobtn">2</button>
+          <button name="numerobtn">3</button>
+          <button name="signos" id="resta">-</button>
+          <button id="esIgual">=</button>
+          <button onclick="funcionalidad.borraTodo()" name="numerobtn">C</button>
+          <button name="numerobtn">0</button>
+          <button name="numerobtn">.</button>
+          <button name="signos" id="suma">+</button>
+      </div>
+    </div>
+    <script src="funcionalidad.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,91 @@
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(5,80px);
+    grid-template-rows: 160px repeat(4,60px);
+    grid-gap: 5px 5px;
+    background-color:rgb(28, 32, 43) ;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:fit-content ;
+    background: rgb(22, 26, 36);
+    padding: 10px;
+    border-radius: 26px;
+    margin: 500px;
+    margin-top: 200px;
+}
+ 
+ .pantalla{
+     display: flex;
+     grid-column: 1/-1;
+     color: rgb(62, 236, 219);
+     background-color: #0c0b0b;
+     text-align: right;
+     border-radius: 8px;
+     padding: 18px;
+     margin: 20px 20px 20px;
+     align-items: flex-end;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ #esIgual{
+     display: grid;
+     color: black;
+     background-color: cyan;
+     height: 120px;
+     width: 56px;
+     border-radius: 55%;
+     justify-content: center;
+     align-items: center;
+     
+     cursor: pointer;
+
+
+ }
+ #btnBorrar{
+     display: grid;
+     background-color: rgb(173, 54, 54);
+     height: 50px;
+     width: 50px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     border: none;
+     cursor: pointer;
+ }
+ .signos{
+     display: grid;
+     color: rgb(166, 162, 221);
+     background-color:rgb(29, 14, 14);
+     height: 50px;
+     width: 50px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     border: none;
+     cursor: pointer;
+ }
+
+ button {
+    cursor: pointer;
+     background-color: darkslategrey;
+     color: rgb(166, 162, 221);
+     border-radius: 26px;
+     justify-content: center;
+     height: 30px;
+     width: 28px;
+     align-items: center;
+     margin: 12px;
+     border: none;
+     
+     
+ }
+ 
+
